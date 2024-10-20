@@ -14,8 +14,8 @@ export default new Vuetify({
     dark: true,
     themes: {
       light: {
-        primary: '#ee44aa',
-        secondary: '#424242',
+        primary: 'transparent',
+        secondary: 'linear-gradient(100deg, #575656, #062e3f)',
         accent: '#82B1FF',
         error: '#FF5252',
         info: '#2196F3',
