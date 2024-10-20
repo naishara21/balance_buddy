@@ -15,7 +15,7 @@
 
       <v-card-text :class="$theme.card.textSize" class="mb-4">
         <p>
-          Blueprints provide additional features in Tempo such as visualizations or forms.
+          Blueprints provide additional features in Joyful PA such as visualizations or forms.
           Some blueprints are enabled by default.
         </p>
         <v-row
@@ -125,7 +125,7 @@
         <v-checkbox
           hide-details
           v-model="exportConfig.settings"
-          label="Export Tempo settings"
+          label="Export Joyful PA settings"
           :ripple="false"
         ></v-checkbox>
       </v-card-text>
@@ -142,7 +142,7 @@
     >
       <v-card-title class="headline">Import data</v-card-title>
       <v-card-text :class="$theme.card.textSize">
-        <p>Import data from a previously generated Tempo JSON File. Existing notes and tasks will be kept.</p>
+        <p>Import data from a previously generated Joyful PA JSON File. Existing notes and tasks will be kept.</p>
         <v-file-input accept=".json,application/json" label="JSON File" v-model="toImportFile"></v-file-input>
         <v-checkbox
           hide-details
@@ -165,7 +165,7 @@
         <v-checkbox
           hide-details
           v-model="importConfig.settings"
-          label="Import Tempo settings"
+          label="Import Joyful PA settings"
           :ripple="false"
         ></v-checkbox>
         <v-textarea
@@ -185,13 +185,13 @@
       <v-card-title class="headline">Syncing with other devices</v-card-title>
 
       <v-card-text :class="$theme.card.textSize">
-        <p>Your diary can be synced with other devices using any <a href="https://couchdb.apache.org/">CouchDB server</a>. This is not provided as part of Tempo though, and you have to find or host one yourself.</p>
+        <p>Your diary can be synced with other devices using any <a href="https://couchdb.apache.org/">CouchDB server</a>. This is not provided as part of Joyful PA though, and you have to find or host one yourself.</p>
         <v-form>
           <v-text-field
             v-model="couchDbUrl"
             label="CouchDB URL"
             name="couchdb-url"
-            placeholder="http://localhost:5984/tempo"
+            placeholder="http://localhost:5984/Joyful PA"
             required
           ></v-text-field>
           <v-text-field
@@ -253,7 +253,7 @@
 
       <v-card-text :class="$theme.card.textSize">
         <p>
-          Tempo collects some anonymous telemetry data.
+          Joyful PA collects some anonymous telemetry data.
           This data is very valuable for us as it helps us understand how people are using the application.
         </p>
         <p>
@@ -277,7 +277,7 @@
       <v-card-title class="headline">Delete your data</v-card-title>
 
       <v-card-text :class="$theme.card.textSize">
-        <p>Delete all your data from Tempo.</p>
+        <p>Delete all your data from Joyful PA.</p>
         <v-btn
           color="error"
           @click="deleteConfirm">
