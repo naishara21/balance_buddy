@@ -1,5 +1,5 @@
 <template>
-  <v-app id="tempo" dark>
+  <v-app id="joyful-pa" dark>
     <v-app-bar
       app
       dense
