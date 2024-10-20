@@ -97,19 +97,19 @@ Vue.prototype.$theme = {
     textSize: "body-2",
   },
   drawer: {
-    color: "grey darken-4",
+    color: "dark blue",
   },
   menu: {
-    color: "grey darken-4",
+    color: "dark blue",
   },
   switch: {
-    color: "pink",
+    color: "blue",
   },
   input: {
-    color: "grey darken-4",
+    color: "dark blue",
   },
   mainButton: {
-    color: "pink darken-4",
+    color: "dark blue",
   },
 }
 if (process.env.VUE_APP_PLAUSIBLE_HOST) {
