@@ -29,7 +29,7 @@ module.exports = {
     config
     .plugin('html')
     .tap(args => {
-      args[0].title = 'Tempo - Find your own rythm'
+      args[0].title = 'Joyful PA'
       return args
     })
     config.resolve.alias.set(
@@ -40,9 +40,9 @@ module.exports = {
     );
   },
   pwa: {
-    name: 'Tempo',
-    themeColor: '#422D62',
-    msTileColor: '#422D62',
+    name: 'Joyful PA',
+    themeColor: '#0D203B',
+    msTileColor: '#0D203B',
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: 'black',
     workboxPluginMode: 'InjectManifest',
