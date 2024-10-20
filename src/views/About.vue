@@ -1,11 +1,11 @@
 <template>
   <div>
     <v-card tag="section" class="mb-8" :color="$theme.card.color">
-      <v-card-title class="headline">About Tempo</v-card-title>
+      <v-card-title class="headline">About Joyful PA</v-card-title>
 
       <v-card-text :class="$theme.card.textSize">
         <p>
-          Tempo is a personnal log and mood tracker. You can use it to track what's going on in your life and how different events affect your well-being.
+          Joyful PA is a personnal log and mood tracker. You can use it to track what's going on in your life and how different events affect your well-being.
         </p>
         <p>
           Current version: <span  class="text-decoration-underline">{{ $store.state.buildId.slice(0, 12) }}</span>
@@ -31,7 +31,7 @@
 
       <v-card-text :class="$theme.card.textSize">
         <p>
-          Use Tempo as you would use a personnal log. Write notes when you feel like it, and use hashtags and moodtags to indicate how you feel.
+          Use Joyful PA as you would use a personnal log. Write notes when you feel like it, and use hashtags and moodtags to indicate how you feel.
         </p>
       </v-card-text>
     </v-card>
@@ -49,7 +49,7 @@
       <v-card-title class="headline">Does it work offline?</v-card-title>
 
       <v-card-text :class="$theme.card.textSize">
-        <p>Yes! Tempo is a Progressive Web App (PWA) and can be accessed and used even without an internet connection.</p>
+        <p>Yes! Joyful PA is a Progressive Web App (PWA) and can be accessed and used even without an internet connection.</p>
       </v-card-text>
     </v-card>
 
@@ -75,7 +75,7 @@
           Stephanie and I had an argument. I feel <a href="">--angry</a> and <a href="">-confused</a>…
         </blockquote>
         <p>
-          By using the <code>-</code> tag, you indicate to Tempo that <code>angry</code> and <code>confused</code> are negative feelings. Similarly, you could use the <code>+</code> tag in front of a word to indicate a positive feeling. You can repeat these signs up to three time to indicate a greater intensity.
+          By using the <code>-</code> tag, you indicate to Joyful PA that <code>angry</code> and <code>confused</code> are negative feelings. Similarly, you could use the <code>+</code> tag in front of a word to indicate a positive feeling. You can repeat these signs up to three time to indicate a greater intensity.
         </p>
         <p>
           When present, <code>-</code> and <code>+</code> tags are used to compute the mood score of each note. This score is then used in the daily mood widget to track your moods over time.
@@ -237,21 +237,6 @@
             </tbody>
           </template>
         </v-simple-table>
-      </v-card-text>
-    </v-card>
-
-
-    <v-card tag="section" id="software" class="mb-8" :color="$theme.card.color">
-      <v-card-title class="headline">Tempo is powered by free and open-source software</v-card-title>
-
-      <v-card-text :class="$theme.card.textSize">
-        <p>
-          <a href="https://github.com/agateblue/tempo">Source code is publicly available</a> and can be reused, modified and self-hosted according to your needs.
-        </p>
-        <p>
-          You're welcome to contribute to the project by 
-          <a href="https://github.com/agateblue/tempo/issues">submitting new ideas</a>, reporting bugs, implementing changes, bugfixes, or simply sharing the word about Tempo if you feel like it :)
-        </p>
       </v-card-text>
     </v-card>
   </div>
