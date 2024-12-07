@@ -58,7 +58,7 @@
                 <v-card flat>
                   <v-card-text>
                     
-                    <p>Blueprints let you customize Joyful PA by adding new forms and visualizations.</p>
+                    <p>Blueprints let you customize Balance Buddy by adding new forms and visualizations.</p>
                     <p>
                       Blueprints are written in YAML format.
                       You can learn more about this format by reading <a href="https://spacelift.io/blog/yaml">this guide</a>
@@ -128,7 +128,7 @@
                       Also, you might want to make the "scale" field optional.
                     </p>
                     <p>
-                      Joyful PA gives you a few additional configuration on fields you can use for such purpose.
+                      Balance Buddy gives you a few additional configuration on fields you can use for such purpose.
                       Let's update our blueprint!
                     </p>
                     <code-snippet language="yaml" :code="snippets.validation"></code-snippet>
@@ -266,7 +266,7 @@ const SNIPPETS = {
   simple: `# Each blueprint must have a unique ID
 id: my-stuff
 # The blueprint label is displayed in various place
-# in Joyful PA's UI
+# in Balance Buddy's UI
 label: My stuff
 # Here, we define our blueprint fields
 fields:
