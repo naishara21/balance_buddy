@@ -1,7 +1,7 @@
 {
   "$id": "https://tempo.agate.blue/schemas/blueprint.json",
   "title": "Blueprint",
-  "description": "A Joyful PA blueprint describing forms, fields and visualizations. IDs of fields, forms and visualizations must contain only letters, digits, hyphens and semicolons",
+  "description": "A Balance Buddy blueprint describing forms, fields and visualizations. IDs of fields, forms and visualizations must contain only letters, digits, hyphens and semicolons",
   "type": "object",
   "required": [
     "id",
