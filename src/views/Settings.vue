@@ -15,7 +15,7 @@
 
       <v-card-text :class="$theme.card.textSize" class="mb-4">
         <p>
-          Blueprints provide additional features in Joyful PA such as visualizations or forms.
+          Blueprints provide additional features in Balance Buddy such as visualizations or forms.
           Some blueprints are enabled by default.
         </p>
         <v-row
