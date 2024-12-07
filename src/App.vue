@@ -1,12 +1,12 @@
 <template>
-  <v-app id="joyful-pa" dark>
+  <v-app id="balance-buddy" dark>
     <v-app-bar
       app
       dense
       :color="$theme.appBar.color">
       <v-spacer></v-spacer>
       <v-toolbar-title @click="$store.commit('searchQuery', ''); $router.push('/')" class="mr-4" style="cursor: pointer">
-        Joyful PA
+        Balance Buddy
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
