@@ -177,7 +177,7 @@ html {
   scroll-behavior: smooth;
 }
 .theme--dark.v-application {
-  background: var(--application-background) !important;
+  background: #011627;
 }
 .container.narrow {
   max-width: var(--single-column-width);
