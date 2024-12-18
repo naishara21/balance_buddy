@@ -86,14 +86,14 @@ Vue.prototype.$icons = {
 
 Vue.prototype.$theme = {
   appBar: {
-    color: "tranparent",
+    color: "#011627",
   },
   card: {
-    color: "linear-gradient(100deg, #575656, #062e3f)",
+    color: "#011627",
     textSize: "body-1",
   },
   nestedCard: {
-    color: "transparent",
+    color: "#011627",
     textSize: "body-2",
   },
   drawer: {
