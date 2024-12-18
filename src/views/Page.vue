@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="stackable">
       <v-col cols="12" sm="4">
-        <v-card tag="section" :color="$theme.card.color">
+        <v-card tag="section" :color="#062e3f">
           <v-card-title class="headline">Pages</v-card-title>
           <v-card-text :class="$theme.card.textSize" class="mb-4">
             <router-link
