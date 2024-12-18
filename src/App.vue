@@ -177,7 +177,7 @@ html {
   scroll-behavior: smooth;
 }
 .theme--dark.v-application {
-  background: #011627;
+  background-image: linear-gradient(100deg, #0B3040, #515452);
 }
 .container.narrow {
   max-width: var(--single-column-width);
