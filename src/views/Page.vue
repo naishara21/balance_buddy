@@ -17,7 +17,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="8">
-        <v-card tag="section" class="fluid" :color="$theme.card.color">
+        <v-card tag="section" class="fluid" :color="#062e3f">
           <v-card-text class="mb-4">
             <blueprint-page v-if="currentPage" :page="currentPage" />
           </v-card-text>
