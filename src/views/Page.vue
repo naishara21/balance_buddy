@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="stackable">
       <v-col cols="12" sm="4">
-        <v-card tag="section" :color="#062e3f">
+        <v-card tag="section" :color="$theme.card.color">
           <v-card-title class="headline">Pages</v-card-title>
           <v-card-text :class="$theme.card.textSize" class="mb-4">
             <router-link
@@ -17,7 +17,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="8">
-        <v-card tag="section" class="fluid" :color="#062e3f">
+        <v-card tag="section" class="fluid" :color="$theme.card.color">
           <v-card-text class="mb-4">
             <blueprint-page v-if="currentPage" :page="currentPage" />
           </v-card-text>
