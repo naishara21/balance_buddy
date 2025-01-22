@@ -29,7 +29,7 @@ module.exports = {
     config
     .plugin('html')
     .tap(args => {
-      args[0].title = 'Joyful PA'
+      args[0].title = 'Balance Buddy
       return args
     })
     config.resolve.alias.set(
@@ -40,11 +40,11 @@ module.exports = {
     );
   },
   pwa: {
-    name: 'Joyful PA',
+    name: 'Balance Buddy',
     themeColor: '#0D203B',
     msTileColor: '#0D203B',
     appleMobileWebAppCapable: 'yes',
-    appleMobileWebAppStatusBarStyle: 'black',
+    appleMobileWebAppStatusBarStyle: '#0D203B',
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
       importWorkboxFrom: 'local',
