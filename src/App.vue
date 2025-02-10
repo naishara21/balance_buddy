@@ -1,7 +1,6 @@
 <template>
   <v-app id="balance-buddy" dark>
     <v-app-bar app dense :color="$theme.appBar.color">
-      <v-spacer></v-spacer>
       <v-toolbar-title
   @click="$store.commit('searchQuery', ''); window.location.href='http://localhost/Buddy%20Forum/index.html'"
   class="mr-4" 
