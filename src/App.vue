@@ -118,7 +118,7 @@ html {
   max-width: 600px;
 }
 section.v-card:not(.fluid), .section.v-card:not(.fluid) {
-  max-width: 600px !important;
+  max-width: var(--single-column-width) !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
