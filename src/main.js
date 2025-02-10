@@ -97,13 +97,13 @@ Vue.prototype.$theme = {
     textSize: "body-2",
   },
   drawer: {
-    color: "#011627",
+    color: "dark blue",
   },
   menu: {
-    color: "#011627",
+    color: "dark blue",
   },
   switch: {
-    color: "#011627",
+    color: "blue",
   },
   input: {
     color: "dark blue",
