@@ -29,7 +29,7 @@ module.exports = {
     config
     .plugin('html')
     .tap(args => {
-      args[0].title = 'Balance Buddy
+      args[0].title = 'Balance Buddy';
       return args
     })
     config.resolve.alias.set(
